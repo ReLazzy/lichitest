@@ -1,0 +1,33 @@
+.item {
+  width: 384px;
+  height: 650px;
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-direction: column;
+
+  align-items: center;
+  border-radius: 10px;
+
+  & > img {
+    height: 512px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.text {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.17);
+  -moz-box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.17);
+  box-shadow: 0px 0px 23px 0px rgba(34, 60, 80, 0.17);
+}
