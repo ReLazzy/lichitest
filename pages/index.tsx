@@ -77,7 +77,7 @@ export default function Home() {
         data={product}
         containerHeight={'100vh'}
         itemHeight={600}
-        setIsEnd={setIsEndScroll}
+        onEndReach={() => setIsEndScroll(true)}
         renderer={(elem: Product) => (
           <CardItem
             key={elem.id}
